@@ -1,0 +1,162 @@
+/* Averia Gruesa Libre (li a) */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
+
+/* Amarante (h1) */
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+/* Aldrich(h2) */
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+/* Belgrano (ul2 li) */
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(img/background.jpg);
+}
+
+body{
+    margin: 0.5rem;
+    text-align: center;
+}
+
+h1{
+    font-family: "Matemasie", sans-serif;
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+nav{
+    border: 3px solid black;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 335px;
+    font-size: 2rem;
+    line-height: 4rem;
+    border-color: rgb(56, 56, 253);
+}
+
+h2{
+    padding: 1rem;
+    background-color: #7FDEFF;
+    border-radius: 1.8rem 1.8rem 0 0;
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    background: hsla(191, 75%, 60%, 1);
+
+    background: linear-gradient(90deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(191, 75%, 60%, 1) 0%, hsla(248, 87%, 36%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4DC9E6", endColorstr="#210CAE", GradientType=1 );
+}
+
+.ul1{
+    list-style-type: none;
+}
+
+.ul1 li{
+    border-top: 3px solid black;
+    font-size: 1.6rem;
+    border-color:rgb(56, 56, 253);
+}
+
+.ul1 li a{
+    text-decoration: none;
+    font-family: "Averia Gruesa Libre", system-ui;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    color: black;
+    display: block;
+    background: hsla(259, 84%, 78%, 1);
+
+    background: linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B597F6", endColorstr="#96C6EA", GradientType=1 );
+}
+
+.ul1 li:last-child a{
+    border-radius: 0rem 0rem 1.8rem 1.8rem;
+}
+.ul1 li a:visited{
+    color: black;
+    display: block;
+}
+
+.ul1 li a:hover,
+.ul1 li a:focus{
+    display: block;
+    font-weight: 900;
+    background: hsla(11, 82%, 87%, 1);
+
+    background: linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9CDC3", endColorstr="#FACEFB", GradientType=1 );
+}
+
+.ul1 li:last-child a:hover,
+.ul1 li:last-child a:focus{
+    border-radius: 0 0 1.8rem 1.8rem;
+    background: hsla(11, 82%, 87%, 1);
+
+    background: linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9CDC3", endColorstr="#FACEFB", GradientType=1 );
+}
+
+
+.ul2{
+    border: 2px solid;
+    margin: 0 auto 1rem;
+    max-width: 900px;
+    border-radius: 1.8rem;
+    background: hsla(113, 96%, 81%, 1);
+
+    background: linear-gradient(90deg, hsla(113, 96%, 81%, 1) 0%, hsla(188, 90%, 51%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(113, 96%, 81%, 1) 0%, hsla(188, 90%, 51%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(113, 96%, 81%, 1) 0%, hsla(188, 90%, 51%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ADFDA2", endColorstr="#11D3F3", GradientType=1 );
+}
+.ul2 li{
+    color: white;
+    line-height: 5rem;
+    text-align: left;
+    list-style-type: none;
+    font-family: "Belgrano", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+    padding-left:5%;
+    
+}
+
